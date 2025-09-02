@@ -1,4 +1,4 @@
-# Crop Yield Recommendation System
+# Crop Yield Recommendation System 🌱
 
 An intelligent web application built with Django that predicts optimal crop yields by analyzing soil nutrient data and real-time weather conditions.
 
