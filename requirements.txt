@@ -1,26 +1,10 @@
-# === Web framework ===
-Django>=3.2,<3.3
-
-# === Production server ===
-# Using Gunicorn for WSGI (Django). If you prefer ASGI, add: uvicorn[standard]>=0.27,<0.32
-gunicorn>=21,<22
-
-# === Database (MySQL) ===
-# Your code uses PyMySQL (settings.py: install_as_MySQLdb / direct connections)
-PyMySQL>=1.1,<2
-
-# === Data / ML stack ===
-numpy>=1.24,<3
-pandas>=2.0,<3
-scikit-learn>=1.4,<2
-matplotlib>=3.8,<4
-
-# === HTTP client (for external APIs) ===
-requests>=2.31,<3
-
-# === Static files in production (Render) ===
-whitenoise>=6.5,<7
-
-# === Optional utilities ===
-# python-dotenv>=1.0,<2      # if you use a .env file locally
-# django-cors-headers>=4.3,<5 # if your Vercel frontend calls this backend (CORS)
+Django==3.2.25
+pymysql
+pandas
+scikit-learn
+requests
+geopy
+matplotlib
+gunicorn==20.1.0
+whitenoise==6.2.0
+dj-database-url==0.5.0
